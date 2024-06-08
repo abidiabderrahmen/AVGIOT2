@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounf1"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Dev_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="220dp"
+        android:hint="Developpement Mobile"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="16dp"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Dev_w"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:hint="Developpement Web"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/bd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="220dp"
+        android:hint="BDD"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/res_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="120dp"
+        android:hint="Reseau IP"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/vhdl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="220dp"
+        android:hint="VHDL"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/soc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="190dp"
+        android:hint="SOC"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="220dp"
+        android:hint="Test logiciel"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/sec_inf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="260dp"
+        android:hint="Securité informatique"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="220dp"
+        android:hint="ANGLAIS"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/pfa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="330dp"
+        android:hint="PFA"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/droit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="110dp"
+        android:hint="DROIT"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="17dp"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/calcul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="75dp"
+        android:backgroundTint="@color/black"
+        android:text="Calculer "
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
